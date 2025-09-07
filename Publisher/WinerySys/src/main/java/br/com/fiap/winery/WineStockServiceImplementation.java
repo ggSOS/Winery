@@ -25,7 +25,7 @@ public class WineStockServiceImplementation implements WineStockService {
         for (String[] opcaoAtual : listadeOpcoes) {
             sb.append("\n\t" + opcaoAtual[0] + opcaoAtual[1]);
         }
-        sb.append("\n\n");
+        sb.append("\n");
         //System.out.print(sb);
         return sb.toString();
     }
